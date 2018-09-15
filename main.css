@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 150ms;
+}
+
+body {
+    /* background-color: #999;; */
+    background-image: linear-gradient(to right, #03A9F4, #00897B);
+    
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        /* background-image: linear-gradient(to bottom, #03A9F4, #EC407A, #FFF176); */
+    }
+}
+
+
+/* Fade-In Effect */
+@keyframes fadeInEffect {
+    from { opacity: 0; transform: translateX(-2em); };
+      to { opacity: 1; transform: translateX(0em); };
+}
+
+
+/* Fade Effect */
+@keyframes fadeEffect {
+    from { opacity: 0;  };
+      to { opacity: 1; };
+}
+
+.nav-menu-drawer {
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 901;
+    background-color: #777;
+    box-shadow: 10px 0 30px rgba(0,0,0,0.2);
+
+    animation-name: fadeInEffect; 
+    animation-duration: 600ms;
+}
+
+/* Side Navigation Menu : Dark Transparent Background */
+.nav-menu-background-close {
+    display: none;
+}
+
+.nav-menu-background { 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 900;
+
+    animation-name: fadeEffect; 
+    animation-duration: 200ms;
+}
+
+/* Top Navigation Bar */
+.navbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    margin: 0 auto;
+
+    background-color: #fafafa;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+/* Wrapper Component */
+.warpper {
+    margin: 3em auto;
+    padding: 0;
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header with full-screen style */
+.header-fullscreen {
+    width: 100%;
+    height: 100vh;
+    background-color: #777;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-fullscreen > .heading-group {
+    text-align: center;
+    width: 900px;
+    max-width: 80%;
+    /* background-color: red;
+    border-width: thick;
+    padding: 4em 2em;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2); */
+}
+
+.header-fullscreen > .heading-group > h1 {
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.header-fullscreen > .heading-group > p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Card Element */
+.card {
+    max-width: 80%;
+
+    height: 300px; 
+
+    padding: 1em;
+    margin: 1em auto 3em auto;
+    background-color: #fafafa;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+    animation-name: fadeInEffect; 
+    animation-duration: 1s;
+
+    transition: all 150ms ease-out;
+}
+
+.card:hover {
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    transform: translateY(-0.5em);
+}
