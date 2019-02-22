@@ -101,7 +101,7 @@ body {
 .header-fullscreen {
   width: 100%;
   height: 100vh;
-  background-color: #777;
+  background-color: #fff;
 
   display: flex;
   flex-direction: column;
