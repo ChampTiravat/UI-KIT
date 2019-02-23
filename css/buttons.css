@@ -1,0 +1,54 @@
+.base-btn {
+  background-color: #ccc;
+  color: #777;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 7px;
+  font-size: 1.1em;
+  font-weight: 400;
+  transition: 300ms;
+}
+
+.base-btn:hover {
+  font-weight: 600;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.base-btn:active {
+  background-color: #777;
+  color: #ccc;
+}
+
+.primary-btn {
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+.primary-btn:active {
+  background-color: #fff;
+  color: #03a9f4;
+}
+
+.light-btn {
+  background-color: #fff;
+  color: #03a9f4;
+}
+
+.light-btn:active {
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+}
+
+.gian-btn {
+  padding: 1em 1.5em;
+  font-size: 1.5em;
+}
