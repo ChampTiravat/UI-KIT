@@ -6,41 +6,44 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
-    <link rel="stylesheet" href="./css/main.css"    />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/buttons.css" />
-    <link rel="stylesheet" href="./css/modals.css"  />
+    <link rel="stylesheet" href="./css/modals.css" />
   </head>
   <body>
-
-    <div class="modal-background">
+    <div class="modal-background-close" id="subscribeModal">
       <div class="modal-dialog">
         <div class="modal-dialog-header">
           <h3>Modal Short Title</h3>
-          <button class="base-btn light-btn">x</button>
+          <button class="base-btn light-btn" onclick="toggleModal();">x</button>
         </div>
         <div class="modal-dialog-body">
           BODY
         </div>
         <div class="modal-dialog-footer">
-          <button class="base-btn light-btn">CANCEL</button>
+          <button onclick="toggleModal();" class="base-btn light-btn">
+            CANCEL
+          </button>
           <button class="base-btn primary-btn">YES</button>
         </div>
       </div>
     </div>
-    <button class="base-btn light-btn gian-btn floating-btn">
+    <button
+      onclick="toggleModal();"
+      class="base-btn light-btn gian-btn floating-btn"
+    >
       Subscribe
     </button>
 
-    <div class="nav-menu-background-close"
-         id="sideNavigationMenu">
+    <div class="nav-menu-background-close" id="sideNavigationMenu">
       <aside class="nav-menu-drawer">
         <div class="navbar-menu-drawer-header">
           <div class="profile-placeholder"></div>
         </div>
         <ul>
-          <li>HOME</li> 
-          <li>BLOG</li> 
-          <li>ABOUT</li> 
+          <li>HOME</li>
+          <li>BLOG</li>
+          <li>ABOUT</li>
         </ul>
       </aside>
       <div class="nav-menu-blankspace-wrapper">
@@ -50,12 +53,14 @@
 
     <nav class="navbar">
       <div class="header">
-        <h1>WEBSITE NAME</h1> 
+        <h1>WEBSITE NAME</h1>
       </div>
       <div class="control">
-        <button id="navbar-menu-button"
-                class="base-btn primary-btn"
-                onclick="toggleSideNavigationMenu();">
+        <button
+          id="navbar-menu-button"
+          class="base-btn primary-btn"
+          onclick="toggleSideNavigationMenu();"
+        >
           MENU
         </button>
       </div>
@@ -75,19 +80,19 @@
 
     <div class="wrapper" style="padding-top: 100px;">
       <div class="card">
-        <button class="base-btn primary-btn">Click me</button> 
-        <button class="base-btn light-btn">Click me</button> 
-        <button class="base-btn">Click me</button> 
+        <button class="base-btn primary-btn">Click me</button>
+        <button class="base-btn light-btn">Click me</button>
+        <button class="base-btn">Click me</button>
       </div>
       <div class="card">
-        <button class="base-btn primary-btn">Click me</button> 
-        <button class="base-btn light-btn">Click me</button> 
-        <button class="base-btn">Click me</button> 
+        <button class="base-btn primary-btn">Click me</button>
+        <button class="base-btn light-btn">Click me</button>
+        <button class="base-btn">Click me</button>
       </div>
       <div class="card">
-        <button class="base-btn primary-btn">Click me</button> 
-        <button class="base-btn light-btn">Click me</button> 
-        <button class="base-btn">Click me</button> 
+        <button class="base-btn primary-btn">Click me</button>
+        <button class="base-btn light-btn">Click me</button>
+        <button class="base-btn">Click me</button>
       </div>
     </div>
     <script type="text/javascript" src="./app.js"></script>
