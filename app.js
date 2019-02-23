@@ -5,5 +5,10 @@ function toggleSideNavigationMenu() {
     targetClassName === "nav-menu-background-open"
       ? "nav-menu-background-close"
       : "nav-menu-background-open";
+
+  const menuButton = document.getElementById("navbar-menu-button");
+  menuButton.innerHTML =  targetClassName === "nav-menu-background-open"
+      ? "MENU"
+      : "CLOSE";
   return;
 }
