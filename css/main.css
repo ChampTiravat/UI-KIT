@@ -40,6 +40,7 @@ body {
 .nav-menu-drawer {
   width: 20%;
   height: 100vh;
+  padding-top: 90px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -49,6 +50,32 @@ body {
   box-shadow: 10px 0 30px rgba(0, 0, 0, 0.2);
   animation-name: fadeInEffect;
   animation-duration: 600ms;
+}
+
+.nav-menu-drawer > ul {
+  //margin-top: 90px;
+}
+
+.nav-menu-drawer > ul > li {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 100px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 300px;
+  transition: all 200ms ease-in;
+}
+
+.nav-menu-drawer > ul > li:hover {
+  background-color: #fff;
+  color: #03a9f4;
+  padding: 1em 140px;
+  font-weight: 600;
+  border-radius: 0px;
 }
 
 .nav-menu-blankspace-wrapper {
