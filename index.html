@@ -11,17 +11,21 @@
   </head>
   <body>
     <div class="nav-menu-background-close" id="sideNavigationMenu">
-      <aside class="nav-menu-drawer">sad</aside>
+      <aside class="nav-menu-drawer"></aside>
+      <div class="nav-menu-blankspace-wrapper">
+        <!-- <div class="card" style="height: 800px"></div> -->
+      </div>
     </div>
 
     <nav class="navbar">
       <div class="navbar-header"></div>
       <div class="navbar-control">
-        <button class="base-btn primary-btn" onclick="toggleSideNavigationMenu();">Toggle</button>
+        <button class="base-btn primary-btn"
+                onclick="toggleSideNavigationMenu();">Toggle</button>
       </div>
     </nav>
 
-    <section class="header-fullscreen">
+    <section class="header-fullscreen" style="display: none;">
       <div class="heading-group">
         <h1>Tiravat.com</h1>
         <p>
@@ -33,7 +37,7 @@
       </div>
     </section>
 
-    <div class="wrapper">
+    <div class="wrapper" style="padding-top: 100px;">
       <div class="card">
         <button class="base-btn primary-btn">Click me</button> 
         <button class="base-btn light-btn">Click me</button> 
