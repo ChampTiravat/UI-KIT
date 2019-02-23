@@ -170,12 +170,27 @@ body {
   padding: 0.6em 2em;
 }
 
+.base-btn:active {
+  background-color: #777;
+  color: #ccc;
+}
+
 .primary-btn {
   background-color: #03a9f4;
   color: #fff;
 }
 
+.primary-btn:active {
+  background-color: #fff;
+  color: #03a9f4;
+}
+
 .light-btn {
   background-color: #fff;
   color: #03a9f4;
+}
+
+.light-btn:active {
+  background-color: #03a9f4;
+  color: #fff;
 }
