@@ -13,7 +13,8 @@
 
 .base-btn:hover {
   font-weight: 600;
-  padding: 0.6em 2em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .base-btn:active {
@@ -39,4 +40,15 @@
 .light-btn:active {
   background-color: #03a9f4;
   color: #fff;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+}
+
+.gian-btn {
+  padding: 1em 1.5em;
+  font-size: 1.5em;
 }
