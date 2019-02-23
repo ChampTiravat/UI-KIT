@@ -6,13 +6,33 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css"    />
     <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/modals.css"  />
   </head>
   <body>
-    <button class="base-btn light-btn gian-btn floating-btn">Subscribe</button>
 
-    <div class="nav-menu-background-close" id="sideNavigationMenu">
+    <div class="modal-background">
+      <div class="modal-dialog">
+        <div class="modal-dialog-header">
+          <h3>Modal Short Title</h3>
+          <button class="base-btn light-btn">x</button>
+        </div>
+        <div class="modal-dialog-body">
+          BODY
+        </div>
+        <div class="modal-dialog-footer">
+          <button class="base-btn light-btn">CANCEL</button>
+          <button class="base-btn primary-btn">YES</button>
+        </div>
+      </div>
+    </div>
+    <button class="base-btn light-btn gian-btn floating-btn">
+      Subscribe
+    </button>
+
+    <div class="nav-menu-background-close"
+         id="sideNavigationMenu">
       <aside class="nav-menu-drawer">
         <div class="navbar-menu-drawer-header">
           <div class="profile-placeholder"></div>
@@ -33,7 +53,11 @@
         <h1>WEBSITE NAME</h1> 
       </div>
       <div class="control">
-        <button id="navbar-menu-button" class="base-btn primary-btn" onclick="toggleSideNavigationMenu();">MENU</button>
+        <button id="navbar-menu-button"
+                class="base-btn primary-btn"
+                onclick="toggleSideNavigationMenu();">
+          MENU
+        </button>
       </div>
     </nav>
 
