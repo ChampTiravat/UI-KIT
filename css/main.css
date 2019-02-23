@@ -40,7 +40,7 @@ body {
 .nav-menu-drawer {
   width: 20%;
   height: 100vh;
-  padding-top: 90px;
+  padding-top: 74px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -50,6 +50,24 @@ body {
   box-shadow: 10px 0 30px rgba(0, 0, 0, 0.2);
   animation-name: fadeInEffect;
   animation-duration: 600ms;
+}
+
+.navbar-menu-drawer-header {
+  display: block;
+  height: 250px;
+  background-color: #fff;
+  margin-bottom: 1.1em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.profile-placeholder {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 auto;
 }
 
 .nav-menu-drawer > ul {
