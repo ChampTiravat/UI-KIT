@@ -137,11 +137,29 @@ body {
   left: 0;
   right: 0;
   padding: 1em;
-  margin: 0 auto;
+  text-align: left;
 
   background-color: #fafafa;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   z-index: 9999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > .header {
+  width: auto;
+  display: inline-block;
+}
+
+.navbar > .header > h1 {
+  display: inline-block;
+}
+
+.navbar > .control {
+  display: inline-block;
+  margin-right: 2.3em;
 }
 
 /* Wrapper Component */
