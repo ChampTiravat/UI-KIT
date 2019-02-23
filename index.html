@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>UI-KIT v1</title>
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./css/modals.css" />
   </head>
   <body>
+    <!-- START Modal -->
     <div class="modal-background-close" id="subscribeModal">
       <div class="modal-dialog">
         <div class="modal-dialog-header">
@@ -28,13 +30,15 @@
         </div>
       </div>
     </div>
+    <!-- END Modal -->
     <button
-      onclick="toggleModal();"
       class="base-btn light-btn gian-btn floating-btn"
+      onclick="toggleModal();"
     >
       Subscribe
     </button>
 
+    <!-- START Sidebar Menu -->
     <div class="nav-menu-background-close" id="sideNavigationMenu">
       <aside class="nav-menu-drawer">
         <div class="navbar-menu-drawer-header">
@@ -50,7 +54,9 @@
         <!-- <div class="card" style="height: 800px"></div> -->
       </div>
     </div>
+    <!-- END Sidebar Menu -->
 
+    <!-- START Navigation Bar Menu -->
     <nav class="navbar">
       <div class="header">
         <h1><a href="#">WEBSITE NAME</a></h1>
@@ -65,7 +71,9 @@
         </button>
       </div>
     </nav>
+    <!-- END Navigation Bar Menu -->
 
+    <!-- START Header Section -->
     <section class="header-fullscreen">
       <div class="heading-group">
         <h1>Tiravat.com</h1>
@@ -77,8 +85,10 @@
         </p>
       </div>
     </section>
+    <!-- END Header Section -->
 
-    <div class="wrapper" style="padding-top: 100px;">
+    <!-- START Wrapper -->
+    <div class="wrapper">
       <div class="card">
         <button class="base-btn primary-btn">Click me</button>
         <button class="base-btn light-btn">Click me</button>
@@ -95,6 +105,8 @@
         <button class="base-btn">Click me</button>
       </div>
     </div>
+    <!-- END Wrapper -->
+
     <script type="text/javascript" src="./app.js"></script>
   </body>
 </html>
