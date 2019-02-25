@@ -21,9 +21,9 @@
 .modal-dialog {
   max-width: 90%;
   height: auto;
-  margin: 1em auto 3em auto;
+  margin: 3em auto 3em auto;
   background-color: #fafafa;
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   animation-name: fadeInEffect;
   animation-duration: 1s;
