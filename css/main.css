@@ -201,7 +201,7 @@ body {
 .header-fullscreen {
   width: 100%;
   height: 100vh;
-  background-color: #777;
+  background-color: #555;
 
   display: flex;
   flex-direction: column;
@@ -213,18 +213,30 @@ body {
   text-align: center;
   width: 900px;
   max-width: 80%;
+  padding: 3em;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .header-fullscreen > .heading-group > h1 {
   color: #fff;
   font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.header-fullscreen > .heading-group > h2 {
+  color: #eee;
+  font-size: 2.3em;
+  font-weight: 300;
   margin-bottom: 0.5em;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
 
 .header-fullscreen > .heading-group > p {
   margin: 0;
-  color: #fff;
+  color: #ddd;
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
