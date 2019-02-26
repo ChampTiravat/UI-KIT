@@ -215,9 +215,9 @@ body {
   text-align: center;
   width: 900px;
   max-width: 80%;
-  padding: 3em;
-  border: 3px solid #fff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 4em 6em;
+  border: 7px solid #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .header-fullscreen > .heading-group > h1 {
@@ -233,13 +233,14 @@ body {
   font-size: 2.3em;
   font-weight: 300;
   margin-bottom: 0.5em;
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .header-fullscreen > .heading-group > p {
   margin: 0;
   color: #ddd;
   font-size: 1.5em;
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   margin-bottom: 0.5em;
 }
 
